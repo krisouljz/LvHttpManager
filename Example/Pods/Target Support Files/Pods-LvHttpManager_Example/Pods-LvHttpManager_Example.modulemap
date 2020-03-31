@@ -1,0 +1,6 @@
+framework module Pods_LvHttpManager_Example {
+  umbrella header "Pods-LvHttpManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

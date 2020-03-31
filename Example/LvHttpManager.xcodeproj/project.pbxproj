@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57BA7D9F24333D0200A62FCB /* LVTestAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BA7D9E24333D0200A62FCB /* LVTestAPIManager.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		53A17415BEDC4FD70598720D /* Pods-LvHttpManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LvHttpManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-LvHttpManager_Example/Pods-LvHttpManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		57BA7D9D24333D0200A62FCB /* LVTestAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVTestAPIManager.h; sourceTree = "<group>"; };
+		57BA7D9E24333D0200A62FCB /* LVTestAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVTestAPIManager.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LvHttpManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LvHttpManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,12 +62,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72A389B160B228BB10DA8970 /* Pods-LvHttpManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LvHttpManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LvHttpManager_Tests/Pods-LvHttpManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		72B70C7595E84CC718A41824 /* LvHttpManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LvHttpManager.podspec; path = ../LvHttpManager.podspec; sourceTree = "<group>"; };
+		72B70C7595E84CC718A41824 /* LvHttpManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LvHttpManager.podspec; path = ../LvHttpManager.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A63DA297BC1BBB21A21E8F97 /* Pods-LvHttpManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LvHttpManager_Example.release.xcconfig"; path = "Target Support Files/Pods-LvHttpManager_Example/Pods-LvHttpManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B4047780148788F28DBA728B /* Pods_LvHttpManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LvHttpManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5FB59914B15ED5A7D01164E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E2C8DE8432F7D8B48F1E2FD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B5FB59914B15ED5A7D01164E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E2C8DE8432F7D8B48F1E2FD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F5BAF793742AEB064A956551 /* Pods-LvHttpManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LvHttpManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-LvHttpManager_Tests/Pods-LvHttpManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FA64D04E87ED9328AC00EA96 /* Pods_LvHttpManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LvHttpManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -140,6 +143,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				57BA7D9D24333D0200A62FCB /* LVTestAPIManager.h */,
+				57BA7D9E24333D0200A62FCB /* LVTestAPIManager.m */,
 			);
 			name = "Example for LvHttpManager";
 			path = LvHttpManager;
@@ -193,7 +198,6 @@
 				72A389B160B228BB10DA8970 /* Pods-LvHttpManager_Tests.debug.xcconfig */,
 				F5BAF793742AEB064A956551 /* Pods-LvHttpManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -324,10 +329,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LvHttpManager_Example/Pods-LvHttpManager_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 				"${BUILT_PRODUCTS_DIR}/LvHttpManager/LvHttpManager.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LvHttpManager.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57BA7D9F24333D0200A62FCB /* LVTestAPIManager.m in Sources */,
 				6003F59E195388D20070C39A /* LVAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LVViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

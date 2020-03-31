@@ -7,8 +7,11 @@
 //
 
 #import "LVViewController.h"
+#import "LVTestAPIManager.h"
 
 @interface LVViewController ()
+
+@property(strong,nonatomic) LVTestAPIManager *manager;
 
 @end
 
@@ -17,8 +20,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self.manager loadDataWithCompletion:^(id responseObject) {
+        NSLog(@"success : %@",responseObject);
+    } failed:^(NSURLResponse * _Nullable response, id  _Nullable responseObject, NSError * _Nullable error) {
+        
+    }];
 }
+
+- (LVTestAPIManager *)manager{
+    if (!_manager){
+        _manager = [[LVTestAPIManager alloc] init];
+    }
+    return _manager;
+}
+
 
 - (void)didReceiveMemoryWarning
 {
